@@ -1,0 +1,11 @@
+h1 {
+  font-size: 64px;
+  font-family: "Monoton", cursive;
+  color: rgb(236, 87, 0);
+}
+p {
+  font-family: "Comfortaa", cursive;
+}
+body {
+  background-color: rgb(255, 245, 245);
+}
