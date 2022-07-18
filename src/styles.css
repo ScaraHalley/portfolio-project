@@ -1,6 +1,6 @@
 :root {
   --primary-color: #ec5700;
-  --secondary-color: #225c00;
+  --secondary-color: #3a3f38;
   --background-color: #ffe3e3;
   --header-font-family: "Monoton", cursive;
   --default-font-family: "Comfortaa", cursive;
@@ -15,15 +15,22 @@ body {
   padding: 50px 50px;
   border: 1px solid var(--secondary-color);
   border-radius: 800px 800px 40px 40px;
+  box-shadow: 30px 30px var(--secondary-color);
 }
-
 h1 {
   font-size: 64px;
   font-family: var(--header-font-family);
   color: var(--primary-color);
 }
+a {
+  color: #ec5700;
+}
 .primary {
   background-color: var(--primary-color);
+  border: none;
+}
+.secondary {
+  background-color: var(--secondary-color);
   border: none;
 }
 .project-image {
