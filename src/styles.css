@@ -1,21 +1,20 @@
 :root {
   --primary-color: #ec5700;
-  --secondary-color: #535353;
-  --background-color: #ffecec;
+  --secondary-color: #225c00;
+  --background-color: #ffe3e3;
   --header-font-family: "Monoton", cursive;
   --default-font-family: "Comfortaa", cursive;
 }
 body {
   font-family: var(--default-font-family);
   text-align: center;
-  margin: 100px 250px 100px 250px;
+  margin: 100px 200px 100px 200px;
   line-height: 1.5;
   color: var(--secondary-color);
   background-color: var(--background-color);
-
   padding: 50px 50px;
   border: 1px solid var(--secondary-color);
-  border-radius: 500px 500px 2px 2px;
+  border-radius: 800px 800px 40px 40px;
 }
 
 h1 {
@@ -28,7 +27,12 @@ h1 {
   border: none;
 }
 .project-image {
-  padding: 60px 0 0 0;
+  padding: 20px 0 0 0;
+  border-radius: 40px;
+}
+.about-image {
+  padding: 30px 30px;
+  border-radius: 40px;
 }
 .projects {
   padding: 0 20px 0 20px;
@@ -37,7 +41,7 @@ h1 {
 @media (max-width: 900px) {
   body {
     margin: 50px 80px 50px 80px;
-    border-radius: 300px 300px 2px 2px;
+    border-radius: 300px 300px 20px 20px;
   }
   h1 {
     font-size: 46px;
