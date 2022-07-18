@@ -11,6 +11,7 @@ body {
   line-height: 1.5;
   color: var(--secondary-color);
   background-color: #ffe3e3bb;
+  margin-bottom: 40px;
 }
 
 h1 {
@@ -18,12 +19,9 @@ h1 {
   font-family: var(--header-font-family);
   color: var(--primary-color);
 }
-nav {
+nav,
+footer a {
   padding: 5px;
-  background-color: var();
-}
-nav ul {
-  padding: 0;
 }
 nav li {
   display: inline;
@@ -31,14 +29,16 @@ nav li {
   padding: 5px;
 }
 nav a,
-h5 a {
+h5 a,
+footer a {
   text-decoration: none;
   color: var(--secondary-color);
   transition: all 120ms ease-in-out;
 }
 nav a:hover,
+nav li.active,
 h5 a:hover,
-nav li.active {
+footer a:hover {
   text-decoration: none;
   color: var(--primary-color);
 }
@@ -71,7 +71,7 @@ nav li.active {
 
 @media (max-width: 800px) {
   body {
-    margin: 10px 20px 10px 20px;
+    margin: 10px 20px 50px 20px;
     border-radius: 300px 300px 20px 20px;
   }
   h1 {
