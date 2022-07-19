@@ -68,6 +68,12 @@ footer a:hover {
 .projects {
   padding: 0 20px 0 20px;
 }
+.footer-text {
+  font-size: 14px;
+}
+.github-link {
+  padding: 0;
+}
 
 @media (max-width: 800px) {
   body {
