@@ -1,7 +1,7 @@
 :root {
   --primary-color: #ec5700;
-  --secondary-color: #3a3f38;
-  --background-color: #ffe3e3;
+  --secondary-color: #3a4138;
+  --background-color: #ffece3;
   --header-font-family: "Monoton", cursive;
   --default-font-family: "Comfortaa", cursive;
 }
@@ -10,8 +10,8 @@ body {
   text-align: center;
   line-height: 1.5;
   color: var(--secondary-color);
-  background-color: #ffe3e3bb;
-  margin-bottom: 40px;
+  background-color: var(--background-color);
+  margin-bottom: 120px;
 }
 
 h1 {
@@ -63,7 +63,11 @@ footer a:hover {
 }
 .about-image {
   padding: 30px 30px;
-  border-radius: 40px;
+  border-radius: 120px;
+  max-width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .projects {
   padding: 0 20px 0 20px;
